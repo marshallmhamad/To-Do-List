@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import { Routes, Route, HashRouter as Router } from "react-router-dom";
 import TodoContainer from "./components/TodoContainer";
 import About from "./pages/About";
-import NotMatch from "./pages/NotMatch";
+import NotMatch from "./pages/page";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import SinglePage from "./pages/SinglePage";

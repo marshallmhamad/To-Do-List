@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import About from "./pages/About";
-import NotMatch from "./pages/NotMatch";
+import Page from "./pages/page";
 import TodoContainer from "./components/TodoContainer";
 import Navbar from "./components/Navbar";
 import SinglePage from "./pages/SinglePage";
@@ -15,7 +15,7 @@ const App = () => (
       <Route path="about/*" element={<About />}>
         <Route path=":slug" element={<SinglePage />} />
       </Route>
-      <Route path="*" element={<NotMatch />} />
+      <Route path="*" element={<Page />} />
     </Routes>
   </>
 );
